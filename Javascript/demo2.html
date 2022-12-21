@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function f1()
+        {
+            alert("hi")
+            document.getElementById("p1").innerHTML="Welcome to chennai";
+            document.getElementById("p2").innerHTML="Welcome to goa";
+
+
+        }
+        function f2()
+        {
+            document.getElementById("img1").height="300";
+            document.getElementById("img1").width="300";
+        
+
+        }
+        function f3()
+        {
+            document.getElementById("img1").src="facebook.jfif";
+        }
+        function f4()
+        {
+            document.getElementById("p1").style.backgroundColor="green";
+        }
+    </script>
+<p id="p1" style="background-color: yellow;">this is p</p><br>
+<p id="p2">this is also p</p><br>
+<img id="img1" src="flower.jfif" width="200" height="200"><br>
+
+<button type="button" onclick="f1()">click me to change the html text</button><br>
+<button type="button" onclick="f2()">click me to change the html attribute height and width</button><br>
+<button type="button" onclick="f3()">click me to change the html attribute src</button><br>
+<button type="button" onclick="f4()">click me to change the css style</button><br>
+
+</body>
+</html>

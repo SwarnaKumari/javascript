@@ -1,0 +1,14 @@
+.text{
+    color:red;
+    background-color: pink;
+}
+.success{
+    color: blue;
+    background-color: red;
+    display: none;
+}
+.fail{
+    color: yellow;
+    background-color: black;
+    display: none;
+}
